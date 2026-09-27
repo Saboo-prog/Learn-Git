@@ -18,19 +18,4 @@ def checkAna(text , tex):
             if char not in second:
                 second[char] = 1
     
-            else:
-                second[char] += 1
-
-
-
-    return first == second
-
-
-
-
-
-print(checkAna("sahil" , "lhas"))
-    
-
-
-    
+print("New changesssss done --")
