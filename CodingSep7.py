@@ -13,16 +13,7 @@ def maxMin(list):
     return max , min
 
 
-
-
-
-
-
-
-
-
-
-
+print("Sahilllll")
 
 
 

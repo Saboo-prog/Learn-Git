@@ -32,11 +32,11 @@ with sync_playwright() as p:
     page.locator('input[type="submit"][value="Create"]').click()
 
 
-    print(page.url
+    # print(page.url
 
-    page.wait_for_timeout(5000)
+    # page.wait_for_timeout(5000)
 
 
-    print("ahhahfshsfisahifsahiashifsa")
+    # print("ahhahfshsfisahifsahiashifsa")
 
-    browser.close()
+    # browser.close()

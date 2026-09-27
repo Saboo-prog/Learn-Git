@@ -2,6 +2,10 @@ def checkAna(text , tex):
     first = {}
     second = {}
 
+    if len(text) != len(tex):
+         return False
+
+    
     for char in text:
         if char not in first:
             first[char] = 1
@@ -18,10 +22,9 @@ def checkAna(text , tex):
                 second[char] += 1
 
 
-    if first == second:
-         return True
-    else:
-         return False
+
+    return first == second
+
 
 
 
